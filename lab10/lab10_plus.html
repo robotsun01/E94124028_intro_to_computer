@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+< ! -- 設定標題名稱與大小 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Food Judge </title>
+</head>
+
+<body>
+    <h2> <b>Score Chart</b> </h2>
+    <hr/>
+< ! -- 創建表單，並接收訊號 -->
+    <form action='/set' method='post'>
+        Store Name : <input type="text" placeholder="請輸入餐廳名子" name='store_name'/> 
+        <br/>
+        <br/>
+        &emsp;&emsp;&thinsp;&thinsp;  Score : <input type="text" placeholder="請輸入分數" name="score"/> 
+        <br/>
+        <br/>
+        <button> submit </button>
+    </form>
+    <br/>
+    <h2> <b>Current Data : {{ String3 }}</b> </h2>
+
+</body>
+
+
+</html>
